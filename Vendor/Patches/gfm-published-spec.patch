@@ -1,0 +1,106 @@
+--- a/src/html.c
++++ b/src/html.c
+@@ -364,7 +364,7 @@
+     break;
+ 
+   case CMARK_NODE_STRONG:
+-    if (node->parent == NULL || node->parent->type != CMARK_NODE_STRONG) {
++    { /* Preserve nested strong nodes required by the published GFM spec. */
+       if (entering) {
+         cmark_strbuf_puts(html, "<strong>");
+       } else {
+--- a/src/houdini_html_u.c
++++ b/src/houdini_html_u.c
+@@ -71,7 +71,7 @@
+       num_digits = i - 2;
+     }
+ 
+-    if (num_digits >= 1 && num_digits <= 8 && i < size && src[i] == ';') {
++    if (num_digits >= 1 && num_digits <= ((src[1] == 'x' || src[1] == 'X') ? 6 : 7) && i < size && src[i] == ';') {
+       if (codepoint == 0 || (codepoint >= 0xD800 && codepoint < 0xE000) ||
+           codepoint >= 0x110000) {
+         codepoint = 0xFFFD;
+--- a/src/inlines.c
++++ b/src/inlines.c
+@@ -992,6 +992,22 @@
+       matchlen = scan_html_tag(&subj->input, subj->pos);
+     }
+   }
++  /* Published GFM inline comments exclude internal '--' and malformed starts.
++     Keep block comment recognition unchanged (it has different grammar). */
++  if (matchlen > 0 && subj->pos >= 1) {
++    const unsigned char *raw = subj->input.data + subj->pos - 1;
++    bufsize_t total = matchlen + 1;
++    if (total >= 4 && memcmp(raw, "<!--", 4) == 0) {
++      bool valid = total >= 7;
++      bufsize_t body = valid ? total - 7 : 0;
++      if (body > 0 && (raw[4] == '>' || raw[4 + body - 1] == '-')) valid = false;
++      if (body >= 2 && raw[4] == '-' && raw[5] == '>') valid = false;
++      for (bufsize_t n = 0; n + 1 < body; ++n) {
++        if (raw[4 + n] == '-' && raw[5 + n] == '-') { valid = false; break; }
++      }
++      if (!valid) matchlen = 0;
++    }
++  }
+   if (matchlen > 0) {
+     contents = cmark_chunk_dup(&subj->input, subj->pos - 1, matchlen + 1);
+     subj->pos += matchlen;
+--- a/extensions/autolink.c
++++ b/extensions/autolink.c
+@@ -337,6 +337,7 @@
+     uint8_t *at;
+     bool auto_mailto = true;
+     bool is_xmpp = false;
++    bool xmpp_resource = false;
+     size_t rewind;
+     size_t max_rewind;
+     size_t np = 0;
+@@ -385,6 +386,10 @@
+     for (link_end = 1; link_end < remaining - offset - max_rewind; ++link_end) {
+       uint8_t c = data[start + offset + max_rewind + link_end];
+ 
++      if (is_xmpp && xmpp_resource) {
++        if (cmark_isalnum(c) || c == '@' || c == '.') continue;
++        break;
++      }
+       if (cmark_isalnum(c))
+         continue;
+ 
+@@ -396,14 +401,20 @@
+       } else if (c == '.' && link_end < remaining - offset - max_rewind - 1 &&
+                cmark_isalnum(data[start + offset + max_rewind + link_end + 1]))
+         np++;
+-      else if (c == '/' && is_xmpp)
+-        continue;
++      else if (c == '/' && is_xmpp) {
++        size_t next = start + offset + max_rewind + link_end + 1;
++        if (link_end + 1 < remaining - offset - max_rewind &&
++            (cmark_isalnum(data[next]) || data[next] == '@' || data[next] == '.')) {
++          xmpp_resource = true; continue;
++        }
++        break;
++      }
+       else if (c != '-' && c != '_')
+         break;
+     }
+ 
+     if (link_end < 2 || np == 0 ||
+-        (!cmark_isalpha(data[start + offset + max_rewind + link_end - 1]) &&
++        (!xmpp_resource && !cmark_isalpha(data[start + offset + max_rewind + link_end - 1]) &&
+          data[start + offset + max_rewind + link_end - 1] != '.')) {
+       offset += max_rewind + link_end;
+       continue;
+--- a/extensions/tasklist.c
++++ b/extensions/tasklist.c
+@@ -122,9 +122,9 @@
+     cmark_html_render_sourcepos(node, renderer->html, options);
+     cmark_strbuf_putc(renderer->html, '>');
+     if (node->as.list.checked) {
+-      cmark_strbuf_puts(renderer->html, "<input type=\"checkbox\" checked=\"\" disabled=\"\" /> ");
++      cmark_strbuf_puts(renderer->html, "<input checked=\"\" disabled=\"\" type=\"checkbox\"> ");
+     } else {
+-      cmark_strbuf_puts(renderer->html, "<input type=\"checkbox\" disabled=\"\" /> ");
++      cmark_strbuf_puts(renderer->html, "<input disabled=\"\" type=\"checkbox\"> ");
+     }
+   } else {
+     cmark_strbuf_puts(renderer->html, "</li>\n");

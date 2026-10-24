@@ -1,0 +1,31 @@
+# Build outputs
+/build*/
+/obj-*/
+/dist/
+/artifacts/
+CMakeUserPresets.json
+CMakeCache.txt
+CMakeFiles/
+Testing/
+*.log
+*.deb
+*.ddeb
+*.pkg.tar.*
+*.buildinfo
+*.changes
+# Local system and editor files
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.pem
+*.key
+# GUI test outputs
+/parity-*.png
+/parity-*.pdf
+/linux-window.png
+/*-results.txt
+/x11-integration-results.json

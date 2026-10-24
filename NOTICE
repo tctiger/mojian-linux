@@ -1,0 +1,20 @@
+Mojian for Linux
+Copyright 2026 tctiger and contributors
+
+Original Mojian application code, documentation, packaging and the
+project icon are distributed under the Apache License, Version 2.0.
+The project owner has authorized public redistribution of the icon.
+
+Third-party components retain their original copyright and license terms:
+- Vendor/cmark: CommonMark cmark, John MacFarlane and contributors.
+- Vendor/cmark-gfm: GitHub cmark-gfm and upstream contributors.
+- resources/dictionaries: SCOWL-derived en_US Hunspell dictionary.
+- tests/Specs: CommonMark/GFM specification fixtures; retain the
+  specification notices described in the upstream COPYING files.
+
+Full notices are in resources/ThirdPartyNotices.txt, Vendor/cmark/COPYING,
+Vendor/cmark-gfm/COPYING and resources/dictionaries/README_en_US.txt.
+The Apache license does not replace these third-party licenses.
+
+Qt, Graphviz, Hunspell and Pandoc are separately licensed runtime tools
+and libraries; they are not relicensed by this repository.

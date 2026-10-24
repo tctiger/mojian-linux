@@ -1,0 +1,23 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Mojian
+Source: https://github.com/tctiger/mojian-linux
+
+Files: *
+Copyright: 2026 tctiger and contributors
+License: Apache-2.0
+ On Debian systems, the full Apache License 2.0 is available at
+ /usr/share/common-licenses/Apache-2.0. A complete copy is also included
+ in the source tree's LICENSE file. Third-party components retain their
+ upstream licenses; full notices are installed in
+ /usr/share/doc/mojian/ThirdPartyNotices.txt.
+
+Files: Vendor/cmark/* Vendor/cmark-gfm/*
+Copyright: John MacFarlane and contributors; GitHub and contributors
+License: BSD-and-MIT
+ See the complete upstream notices in Vendor/cmark/COPYING,
+ Vendor/cmark-gfm/COPYING and resources/ThirdPartyNotices.txt.
+
+Files: resources/dictionaries/*
+Copyright: SCOWL and en_US dictionary contributors
+License: SCOWL-notices
+ See resources/dictionaries/README_en_US.txt and the bundled notices.

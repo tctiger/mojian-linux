@@ -1,0 +1,1919 @@
+{
+  "%ld 处匹配": {
+    "en": "%ld matches",
+    "zh_TW": "%ld 处匹配",
+    "ja": "%ld 件の一致",
+    "de": "%ld Treffer",
+    "fr": "%ld résultats",
+    "es": "%ld coincidencias"
+  },
+  "已替换 %ld 处": {
+    "en": "%ld replacements",
+    "zh_TW": "已替换 %ld 处",
+    "ja": "%ld 件を置換",
+    "de": "%ld Ersetzungen",
+    "fr": "%ld remplacements",
+    "es": "%ld sustituciones"
+  },
+  "增加一列": {
+    "en": "Add Column",
+    "zh_TW": "新增一欄",
+    "ja": "列を追加",
+    "de": "Spalte hinzufügen",
+    "fr": "Ajouter une colonne",
+    "es": "Añadir columna"
+  },
+  "增加一行": {
+    "en": "Add Row",
+    "zh_TW": "新增一列",
+    "ja": "行を追加",
+    "de": "Zeile hinzufügen",
+    "fr": "Ajouter une ligne",
+    "es": "Añadir fila"
+  },
+  "外观": {
+    "en": "Appearance",
+    "zh_TW": "外觀",
+    "ja": "外観",
+    "de": "Darstellung",
+    "fr": "Apparence",
+    "es": "Apariencia"
+  },
+  "自动补全括号和引号": {
+    "en": "Auto Pair Brackets",
+    "zh_TW": "自动补全括号和引号",
+    "ja": "括弧と引用符を自動補完",
+    "de": "Klammern automatisch ergänzen",
+    "fr": "Compléter les parenthèses",
+    "es": "Completar paréntesis"
+  },
+  "引用": {
+    "en": "Blockquote",
+    "zh_TW": "引用",
+    "ja": "引用",
+    "de": "Zitat",
+    "fr": "Citation",
+    "es": "Cita"
+  },
+  "粗体 ⌘B": {
+    "en": "Bold ⌘B",
+    "zh_TW": "粗體 ⌘B",
+    "ja": "太字 ⌘B",
+    "de": "Fett ⌘B",
+    "fr": "Gras ⌘B",
+    "es": "Negrita ⌘B"
+  },
+  "无序列表": {
+    "en": "Bulleted List",
+    "zh_TW": "无序列表",
+    "ja": "箇条書き",
+    "de": "Aufzählung",
+    "fr": "Liste à puces",
+    "es": "Lista con viñetas"
+  },
+  "取消": {
+    "en": "Cancel",
+    "zh_TW": "取消",
+    "ja": "キャンセル",
+    "de": "Abbrechen",
+    "fr": "Annuler",
+    "es": "Cancelar"
+  },
+  "代码块": {
+    "en": "Code Block",
+    "zh_TW": "代码块",
+    "ja": "コードブロック",
+    "de": "Codeblock",
+    "fr": "Bloc de code",
+    "es": "Bloque de código"
+  },
+  "列 1": {
+    "en": "Column 1",
+    "zh_TW": "列 1",
+    "ja": "列 1",
+    "de": "Spalte 1",
+    "fr": "Colonne 1",
+    "es": "Columna 1"
+  },
+  "列 2": {
+    "en": "Column 2",
+    "zh_TW": "列 2",
+    "ja": "列 2",
+    "de": "Spalte 2",
+    "fr": "Colonne 2",
+    "es": "Columna 2"
+  },
+  "列 3": {
+    "en": "Column 3",
+    "zh_TW": "列 3",
+    "ja": "列 3",
+    "de": "Spalte 3",
+    "fr": "Colonne 3",
+    "es": "Columna 3"
+  },
+  "格式转换失败": {
+    "en": "Conversion Failed",
+    "zh_TW": "格式转换失败",
+    "ja": "変換に失敗しました",
+    "de": "Konvertierung fehlgeschlagen",
+    "fr": "Échec de la conversion",
+    "es": "Error de conversión"
+  },
+  "深色": {
+    "en": "Dark",
+    "zh_TW": "深色",
+    "ja": "ダーク",
+    "de": "Dunkel",
+    "fr": "Sombre",
+    "es": "Oscuro"
+  },
+  "缩小编辑字体": {
+    "en": "Decrease Editor Font Size",
+    "zh_TW": "縮小編輯字體",
+    "ja": "編集フォントを縮小",
+    "de": "Editorschrift verkleinern",
+    "fr": "Réduire la police de l’éditeur",
+    "es": "Reducir fuente del editor"
+  },
+  "原生渲染暂不支持此图表语法，已保留源码。": {
+    "en": "Diagram syntax not supported by the native renderer; source is preserved.",
+    "zh_TW": "原生渲染暂不支持此图表语法，已保留源码。",
+    "ja": "この図の構文には対応していません。ソースを表示します。",
+    "de": "Diese Diagrammsyntax wird nicht unterstützt; der Quelltext bleibt erhalten.",
+    "fr": "Cette syntaxe de diagramme n’est pas prise en charge ; la source est conservée.",
+    "es": "Esta sintaxis de diagrama no está disponible; se conserva el código fuente."
+  },
+  "电子书 EPUB…": {
+    "en": "EPUB…",
+    "zh_TW": "电子书 EPUB…",
+    "ja": "EPUB…",
+    "de": "EPUB…",
+    "fr": "EPUB…",
+    "es": "EPUB…"
+  },
+  "编辑表格": {
+    "en": "Edit Table",
+    "zh_TW": "編輯表格",
+    "ja": "表を編集",
+    "de": "Tabelle bearbeiten",
+    "fr": "Modifier le tableau",
+    "es": "Editar tabla"
+  },
+  "编辑": {
+    "en": "Editor",
+    "zh_TW": "編輯",
+    "ja": "編集",
+    "de": "Editor",
+    "fr": "Éditeur",
+    "es": "Editor"
+  },
+  "编辑字号": {
+    "en": "Editor Font Size",
+    "zh_TW": "编辑字号",
+    "ja": "エディターの文字サイズ",
+    "de": "Schriftgröße im Editor",
+    "fr": "Taille de police de l’éditeur",
+    "es": "Tamaño de letra del editor"
+  },
+  "导出": {
+    "en": "Export",
+    "zh_TW": "匯出",
+    "ja": "書き出す",
+    "de": "Exportieren",
+    "fr": "Exporter",
+    "es": "Exportar"
+  },
+  "查找下一个": {
+    "en": "Find Next",
+    "zh_TW": "查找下一个",
+    "ja": "次を検索",
+    "de": "Weitersuchen",
+    "fr": "Rechercher le suivant",
+    "es": "Buscar siguiente"
+  },
+  "查找与替换…": {
+    "en": "Find and Replace…",
+    "zh_TW": "尋找與取代…",
+    "ja": "検索と置換…",
+    "de": "Suchen und Ersetzen…",
+    "fr": "Rechercher et remplacer…",
+    "es": "Buscar y reemplazar…"
+  },
+  "查找…": {
+    "en": "Find…",
+    "zh_TW": "尋找…",
+    "ja": "検索…",
+    "de": "Suchen…",
+    "fr": "Rechercher…",
+    "es": "Buscar…"
+  },
+  "专注模式": {
+    "en": "Focus Mode",
+    "zh_TW": "專注模式",
+    "ja": "集中モード",
+    "de": "Fokusmodus",
+    "fr": "Mode concentration",
+    "es": "Modo concentración"
+  },
+  "脚注": {
+    "en": "Footnote",
+    "zh_TW": "脚注",
+    "ja": "脚注",
+    "de": "Fußnote",
+    "fr": "Note de bas de page",
+    "es": "Nota al pie"
+  },
+  "格式": {
+    "en": "Format",
+    "zh_TW": "格式",
+    "ja": "書式",
+    "de": "Format",
+    "fr": "Format",
+    "es": "Formato"
+  },
+  "跳转": {
+    "en": "Go",
+    "zh_TW": "跳转",
+    "ja": "移動",
+    "de": "Gehe zu",
+    "fr": "Aller",
+    "es": "Ir"
+  },
+  "HTML…": {
+    "en": "HTML…",
+    "zh_TW": "HTML…",
+    "ja": "HTML…",
+    "de": "HTML…",
+    "fr": "HTML…",
+    "es": "HTML…"
+  },
+  "标题": {
+    "en": "Heading",
+    "zh_TW": "标题",
+    "ja": "見出し",
+    "de": "Überschrift",
+    "fr": "Titre",
+    "es": "Título"
+  },
+  "高亮": {
+    "en": "Highlight",
+    "zh_TW": "高亮",
+    "ja": "ハイライト",
+    "de": "Hervorheben",
+    "fr": "Surligner",
+    "es": "Resaltar"
+  },
+  "分割线": {
+    "en": "Horizontal Rule",
+    "zh_TW": "分割线",
+    "ja": "水平線",
+    "de": "Trennlinie",
+    "fr": "Ligne horizontale",
+    "es": "Línea horizontal"
+  },
+  "图片…": {
+    "en": "Image…",
+    "zh_TW": "圖片…",
+    "ja": "画像…",
+    "de": "Bild…",
+    "fr": "Image…",
+    "es": "Imagen…"
+  },
+  "导入 Word / RTF / EPUB…": {
+    "en": "Import Word / RTF / EPUB…",
+    "zh_TW": "导入 Word / RTF / EPUB…",
+    "ja": "Word / RTF / EPUB を読み込む…",
+    "de": "Word / RTF / EPUB importieren…",
+    "fr": "Importer Word / RTF / EPUB…",
+    "es": "Importar Word / RTF / EPUB…"
+  },
+  "放大编辑字体": {
+    "en": "Increase Editor Font Size",
+    "zh_TW": "放大編輯字體",
+    "ja": "編集フォントを拡大",
+    "de": "Editorschrift vergrößern",
+    "fr": "Agrandir la police de l’éditeur",
+    "es": "Ampliar fuente del editor"
+  },
+  "增加缩进": {
+    "en": "Indent",
+    "zh_TW": "增加缩进",
+    "ja": "インデントを増やす",
+    "de": "Einrücken",
+    "fr": "Augmenter le retrait",
+    "es": "Aumentar sangría"
+  },
+  "行内代码": {
+    "en": "Inline Code",
+    "zh_TW": "行内代码",
+    "ja": "インラインコード",
+    "de": "Inline-Code",
+    "fr": "Code en ligne",
+    "es": "Código en línea"
+  },
+  "确定": {
+    "en": "Insert",
+    "zh_TW": "確定",
+    "ja": "挿入",
+    "de": "Einfügen",
+    "fr": "Insérer",
+    "es": "Insertar"
+  },
+  "插入粗体": {
+    "en": "Insert Bold",
+    "zh_TW": "插入粗體",
+    "ja": "太字を挿入",
+    "de": "Fett einfügen",
+    "fr": "Insérer du gras",
+    "es": "Insertar negrita"
+  },
+  "插入斜体": {
+    "en": "Insert Italic",
+    "zh_TW": "插入斜體",
+    "ja": "斜体を挿入",
+    "de": "Kursiv einfügen",
+    "fr": "Insérer de l’italique",
+    "es": "Insertar cursiva"
+  },
+  "插入链接": {
+    "en": "Insert Link",
+    "zh_TW": "插入链接",
+    "ja": "リンクを挿入",
+    "de": "Link einfügen",
+    "fr": "Insérer un lien",
+    "es": "Insertar enlace"
+  },
+  "此格式需要安装 Pandoc。": {
+    "en": "Install Pandoc to use this format.",
+    "zh_TW": "此格式需要安装 Pandoc。",
+    "ja": "この形式には Pandoc のインストールが必要です。",
+    "de": "Für dieses Format muss Pandoc installiert sein.",
+    "fr": "Installez Pandoc pour utiliser ce format.",
+    "es": "Instala Pandoc para usar este formato."
+  },
+  "斜体 ⌘I": {
+    "en": "Italic ⌘I",
+    "zh_TW": "斜體 ⌘I",
+    "ja": "斜体 ⌘I",
+    "de": "Kursiv ⌘I",
+    "fr": "Italique ⌘I",
+    "es": "Cursiva ⌘I"
+  },
+  "跳转到行…": {
+    "en": "Jump to Line…",
+    "zh_TW": "跳转到行…",
+    "ja": "指定行へ移動…",
+    "de": "Zu Zeile springen…",
+    "fr": "Aller à la ligne…",
+    "es": "Ir a la línea…"
+  },
+  "LaTeX…": {
+    "en": "LaTeX…",
+    "zh_TW": "LaTeX…",
+    "ja": "LaTeX…",
+    "de": "LaTeX…",
+    "fr": "LaTeX…",
+    "es": "LaTeX…"
+  },
+  "界面语言跟随 macOS 设置，修改语言后请重新启动应用。": {
+    "en": "Language follows macOS settings. Restart after changing language.",
+    "zh_TW": "界面语言跟随 macOS 设置，修改语言后请重新启动应用。",
+    "ja": "macOS の言語設定を使用します。言語の変更後は再起動してください。",
+    "de": "Die Sprache folgt macOS. Nach einer Änderung bitte neu starten.",
+    "fr": "La langue suit macOS. Redémarrez après un changement de langue.",
+    "es": "El idioma sigue los ajustes de macOS. Reinicia tras cambiarlo."
+  },
+  "浅色": {
+    "en": "Light",
+    "zh_TW": "淺色",
+    "ja": "ライト",
+    "de": "Hell",
+    "fr": "Clair",
+    "es": "Claro"
+  },
+  "行": {
+    "en": "Row",
+    "zh_TW": "列",
+    "ja": "行",
+    "de": "Zeile",
+    "fr": "Ligne",
+    "es": "Fila"
+  },
+  "显示行号": {
+    "en": "Line Numbers",
+    "zh_TW": "显示行号",
+    "ja": "行番号",
+    "de": "Zeilennummern",
+    "fr": "Numéros de ligne",
+    "es": "Números de línea"
+  },
+  "链接…": {
+    "en": "Link…",
+    "zh_TW": "链接…",
+    "ja": "リンク…",
+    "de": "Link…",
+    "fr": "Lien…",
+    "es": "Enlace…"
+  },
+  "实时样式编辑": {
+    "en": "Live Editing",
+    "zh_TW": "实时样式编辑",
+    "ja": "ライブ編集",
+    "de": "Direkt bearbeiten",
+    "fr": "Édition en direct",
+    "es": "Edición en vivo"
+  },
+  "实时预览": {
+    "en": "Live Preview",
+    "zh_TW": "即時預覽",
+    "ja": "ライブプレビュー",
+    "de": "Live-Vorschau",
+    "fr": "Aperçu en direct",
+    "es": "Vista previa"
+  },
+  "Markdown": {
+    "en": "Markdown",
+    "zh_TW": "Markdown",
+    "ja": "Markdown",
+    "de": "Markdown",
+    "fr": "Markdown",
+    "es": "Markdown"
+  },
+  "区分大小写": {
+    "en": "Match Case",
+    "zh_TW": "区分大小写",
+    "ja": "大文字と小文字を区別",
+    "de": "Groß-/Kleinschreibung beachten",
+    "fr": "Respecter la casse",
+    "es": "Distinguir mayúsculas"
+  },
+  "公式块": {
+    "en": "Math Block",
+    "zh_TW": "公式块",
+    "ja": "数式ブロック",
+    "de": "Formelblock",
+    "fr": "Bloc mathématique",
+    "es": "Bloque matemático"
+  },
+  "下一个": {
+    "en": "Next",
+    "zh_TW": "下一個",
+    "ja": "次へ",
+    "de": "Weiter",
+    "fr": "Suivant",
+    "es": "Siguiente"
+  },
+  "没有匹配项": {
+    "en": "No matches",
+    "zh_TW": "没有匹配项",
+    "ja": "一致なし",
+    "de": "Keine Treffer",
+    "fr": "Aucun résultat",
+    "es": "Sin coincidencias"
+  },
+  "有序列表": {
+    "en": "Numbered List",
+    "zh_TW": "有序列表",
+    "ja": "番号付きリスト",
+    "de": "Nummerierte Liste",
+    "fr": "Liste numérotée",
+    "es": "Lista numerada"
+  },
+  "打开文件夹…": {
+    "en": "Open Folder…",
+    "zh_TW": "開啟資料夾…",
+    "ja": "フォルダを開く…",
+    "de": "Ordner öffnen…",
+    "fr": "Ouvrir un dossier…",
+    "es": "Abrir carpeta…"
+  },
+  "减少缩进": {
+    "en": "Outdent",
+    "zh_TW": "减少缩进",
+    "ja": "インデントを減らす",
+    "de": "Ausrücken",
+    "fr": "Réduire le retrait",
+    "es": "Reducir sangría"
+  },
+  "大纲": {
+    "en": "Outline",
+    "zh_TW": "大綱",
+    "ja": "アウトライン",
+    "de": "Gliederung",
+    "fr": "Plan",
+    "es": "Esquema"
+  },
+  "PDF 导出已取消或失败。": {
+    "en": "PDF export was cancelled or failed.",
+    "zh_TW": "PDF 导出已取消或失败。",
+    "ja": "PDF の書き出しが中止されたか失敗しました。",
+    "de": "Der PDF-Export wurde abgebrochen oder ist fehlgeschlagen.",
+    "fr": "L’export PDF a été annulé ou a échoué.",
+    "es": "La exportación PDF se canceló o falló."
+  },
+  "PDF…": {
+    "en": "PDF…",
+    "zh_TW": "PDF…",
+    "ja": "PDF…",
+    "de": "PDF…",
+    "fr": "PDF…",
+    "es": "PDF…"
+  },
+  "段落": {
+    "en": "Paragraph",
+    "zh_TW": "段落",
+    "ja": "段落",
+    "de": "Absatz",
+    "fr": "Paragraphe",
+    "es": "Párrafo"
+  },
+  "纯文本…": {
+    "en": "Plain Text…",
+    "zh_TW": "纯文本…",
+    "ja": "プレーンテキスト…",
+    "de": "Reiner Text…",
+    "fr": "Texte brut…",
+    "es": "Texto sin formato…"
+  },
+  "打印…": {
+    "en": "Print…",
+    "zh_TW": "列印…",
+    "ja": "プリント…",
+    "de": "Drucken…",
+    "fr": "Imprimer…",
+    "es": "Imprimir…"
+  },
+  "阅读模式": {
+    "en": "Reading Mode",
+    "zh_TW": "阅读模式",
+    "ja": "閲覧モード",
+    "de": "Lesemodus",
+    "fr": "Mode lecture",
+    "es": "Modo de lectura"
+  },
+  "刷新文件列表": {
+    "en": "Refresh Files",
+    "zh_TW": "刷新文件列表",
+    "ja": "ファイルを更新",
+    "de": "Dateien aktualisieren",
+    "fr": "Actualiser les fichiers",
+    "es": "Actualizar archivos"
+  },
+  "正则表达式": {
+    "en": "Regular Expression",
+    "zh_TW": "正则表达式",
+    "ja": "正規表現",
+    "de": "Regulärer Ausdruck",
+    "fr": "Expression régulière",
+    "es": "Expresión regular"
+  },
+  "删除末列": {
+    "en": "Remove Column",
+    "zh_TW": "刪除末欄",
+    "ja": "最後の列を削除",
+    "de": "Letzte Spalte entfernen",
+    "fr": "Supprimer la dernière colonne",
+    "es": "Eliminar última columna"
+  },
+  "删除末行": {
+    "en": "Remove Row",
+    "zh_TW": "刪除末列",
+    "ja": "最後の行を削除",
+    "de": "Letzte Zeile entfernen",
+    "fr": "Supprimer la dernière ligne",
+    "es": "Eliminar última fila"
+  },
+  "替换": {
+    "en": "Replace",
+    "zh_TW": "取代",
+    "ja": "置換",
+    "de": "Ersetzen",
+    "fr": "Remplacer",
+    "es": "Reemplazar"
+  },
+  "全部替换": {
+    "en": "Replace All",
+    "zh_TW": "全部取代",
+    "ja": "すべて置換",
+    "de": "Alle ersetzen",
+    "fr": "Tout remplacer",
+    "es": "Reemplazar todo"
+  },
+  "替换为": {
+    "en": "Replace with",
+    "zh_TW": "替换为",
+    "ja": "置換後の文字列",
+    "de": "Ersetzen durch",
+    "fr": "Remplacer par",
+    "es": "Reemplazar por"
+  },
+  "富文本 (.rtf)…": {
+    "en": "Rich Text (.rtf)…",
+    "zh_TW": "富文本 (.rtf)…",
+    "ja": "リッチテキスト (.rtf)…",
+    "de": "Rich Text (.rtf)…",
+    "fr": "Texte enrichi (.rtf)…",
+    "es": "Texto enriquecido (.rtf)…"
+  },
+  "仅源码": {
+    "en": "Source Only",
+    "zh_TW": "仅源码",
+    "ja": "ソースのみ",
+    "de": "Nur Quelltext",
+    "fr": "Source seule",
+    "es": "Solo código fuente"
+  },
+  "源码与预览": {
+    "en": "Source and Preview",
+    "zh_TW": "源码与预览",
+    "ja": "ソースとプレビュー",
+    "de": "Quelltext und Vorschau",
+    "fr": "Source et aperçu",
+    "es": "Código y vista previa"
+  },
+  "拼写检查": {
+    "en": "Spell Check",
+    "zh_TW": "拼写检查",
+    "ja": "スペルチェック",
+    "de": "Rechtschreibprüfung",
+    "fr": "Vérification orthographique",
+    "es": "Revisión ortográfica"
+  },
+  "删除线": {
+    "en": "Strikethrough",
+    "zh_TW": "删除线",
+    "ja": "取り消し線",
+    "de": "Durchgestrichen",
+    "fr": "Barré",
+    "es": "Tachado"
+  },
+  "下标": {
+    "en": "Subscript",
+    "zh_TW": "下标",
+    "ja": "下付き文字",
+    "de": "Tiefgestellt",
+    "fr": "Indice",
+    "es": "Subíndice"
+  },
+  "上标": {
+    "en": "Superscript",
+    "zh_TW": "上标",
+    "ja": "上付き文字",
+    "de": "Hochgestellt",
+    "fr": "Exposant",
+    "es": "Superíndice"
+  },
+  "同步滚动": {
+    "en": "Synchronized Scrolling",
+    "zh_TW": "同步滚动",
+    "ja": "スクロールを同期",
+    "de": "Synchronisiertes Scrollen",
+    "fr": "Défilement synchronisé",
+    "es": "Desplazamiento sincronizado"
+  },
+  "跟随系统": {
+    "en": "System",
+    "zh_TW": "跟隨系統",
+    "ja": "システム",
+    "de": "System",
+    "fr": "Système",
+    "es": "Sistema"
+  },
+  "目录": {
+    "en": "Table of Contents",
+    "zh_TW": "目录",
+    "ja": "目次",
+    "de": "Inhaltsverzeichnis",
+    "fr": "Table des matières",
+    "es": "Tabla de contenido"
+  },
+  "插入或编辑表格…": {
+    "en": "Table…",
+    "zh_TW": "表格…",
+    "ja": "表…",
+    "de": "Tabelle…",
+    "fr": "Tableau…",
+    "es": "Tabla…"
+  },
+  "任务列表": {
+    "en": "Task List",
+    "zh_TW": "任务列表",
+    "ja": "タスクリスト",
+    "de": "Aufgabenliste",
+    "fr": "Liste de tâches",
+    "es": "Lista de tareas"
+  },
+  "切换预览": {
+    "en": "Toggle Preview",
+    "zh_TW": "切換預覽",
+    "ja": "プレビューを切り替え",
+    "de": "Vorschau umschalten",
+    "fr": "Afficher ou masquer l’aperçu",
+    "es": "Alternar vista previa"
+  },
+  "显示或隐藏侧栏": {
+    "en": "Toggle Sidebar",
+    "zh_TW": "显示或隐藏侧栏",
+    "ja": "サイドバーを切り替え",
+    "de": "Seitenleiste umschalten",
+    "fr": "Afficher ou masquer la barre latérale",
+    "es": "Mostrar u ocultar barra lateral"
+  },
+  "打字机模式": {
+    "en": "Typewriter Mode",
+    "zh_TW": "打字機模式",
+    "ja": "タイプライターモード",
+    "de": "Schreibmaschinenmodus",
+    "fr": "Mode machine à écrire",
+    "es": "Modo máquina de escribir"
+  },
+  "UTF-8": {
+    "en": "UTF-8",
+    "zh_TW": "UTF-8",
+    "ja": "UTF-8",
+    "de": "UTF-8",
+    "fr": "UTF-8",
+    "es": "UTF-8"
+  },
+  "下划线": {
+    "en": "Underline",
+    "zh_TW": "下划线",
+    "ja": "下線",
+    "de": "Unterstrichen",
+    "fr": "Souligné",
+    "es": "Subrayado"
+  },
+  "未命名": {
+    "en": "Untitled",
+    "zh_TW": "未命名",
+    "ja": "名称未設定",
+    "de": "Ohne Titel",
+    "fr": "Sans titre",
+    "es": "Sin título"
+  },
+  "视图": {
+    "en": "View",
+    "zh_TW": "视图",
+    "ja": "表示",
+    "de": "Ansicht",
+    "fr": "Affichage",
+    "es": "Vista"
+  },
+  "Word 文档 (.docx)…": {
+    "en": "Word (.docx)…",
+    "zh_TW": "Word 文档 (.docx)…",
+    "ja": "Word 文書 (.docx)…",
+    "de": "Word-Dokument (.docx)…",
+    "fr": "Document Word (.docx)…",
+    "es": "Documento Word (.docx)…"
+  },
+  "\\n": {
+    "en": "\\n",
+    "zh_TW": "\\n",
+    "ja": "\\n",
+    "de": "\\n",
+    "fr": "\\n",
+    "es": "\\n"
+  },
+  "%ld 字符": {
+    "en": "%ld characters",
+    "zh_TW": "%ld 字元",
+    "ja": "%ld 文字",
+    "de": "%ld Zeichen",
+    "fr": "%ld caractères",
+    "es": "%ld caracteres"
+  },
+  "%ld 行": {
+    "en": "%ld lines",
+    "zh_TW": "%ld 行",
+    "ja": "%ld 行",
+    "de": "%ld Zeilen",
+    "fr": "%ld lignes",
+    "es": "%ld líneas"
+  },
+  "实时样式": {
+    "en": "live",
+    "zh_TW": "即時樣式",
+    "ja": "ライブ編集",
+    "de": "Live-Bearbeitung",
+    "fr": "Édition en direct",
+    "es": "Edición en vivo"
+  },
+  "分钟阅读": {
+    "en": "min read",
+    "zh_TW": "分钟阅读",
+    "ja": "分で読めます",
+    "de": "Min. Lesezeit",
+    "fr": "min de lecture",
+    "es": "min de lectura"
+  },
+  "阅读": {
+    "en": "reading",
+    "zh_TW": "閱讀",
+    "ja": "閲覧",
+    "de": "Lesen",
+    "fr": "Lecture",
+    "es": "Lectura"
+  },
+  "源码": {
+    "en": "source",
+    "zh_TW": "原始碼",
+    "ja": "ソース",
+    "de": "Quelltext",
+    "fr": "Source",
+    "es": "Código fuente"
+  },
+  "分栏预览": {
+    "en": "split",
+    "zh_TW": "分欄預覽",
+    "ja": "分割プレビュー",
+    "de": "Geteilte Vorschau",
+    "fr": "Aperçu partagé",
+    "es": "Vista dividida"
+  },
+  "词": {
+    "en": "words",
+    "zh_TW": "词",
+    "ja": "語",
+    "de": "Wörter",
+    "fr": "mots",
+    "es": "palabras"
+  },
+  "开放文档 (.odt)…": {
+    "en": "OpenDocument (.odt)…",
+    "zh_TW": "OpenDocument (.odt)…",
+    "ja": "OpenDocument (.odt)…",
+    "de": "OpenDocument (.odt)…",
+    "fr": "OpenDocument (.odt)…",
+    "es": "OpenDocument (.odt)…"
+  },
+  "reStructuredText…": {
+    "en": "reStructuredText…",
+    "zh_TW": "reStructuredText…",
+    "ja": "reStructuredText…",
+    "de": "reStructuredText…",
+    "fr": "reStructuredText…",
+    "es": "reStructuredText…"
+  },
+  "MediaWiki…": {
+    "en": "MediaWiki…",
+    "zh_TW": "MediaWiki…",
+    "ja": "MediaWiki…",
+    "de": "MediaWiki…",
+    "fr": "MediaWiki…",
+    "es": "MediaWiki…"
+  },
+  "文件树 / 文件列表": {
+    "en": "File Tree / File List",
+    "zh_TW": "File Tree / File List",
+    "ja": "File Tree / File List",
+    "de": "File Tree / File List",
+    "fr": "File Tree / File List",
+    "es": "File Tree / File List"
+  },
+  "图片设置…": {
+    "en": "Image Settings…",
+    "zh_TW": "圖片設定…",
+    "ja": "画像の設定…",
+    "de": "Bildeinstellungen…",
+    "fr": "Réglages de l’image…",
+    "es": "Ajustes de imagen…"
+  },
+  "请先将光标放在图片块内。": {
+    "en": "Select an image block first.",
+    "zh_TW": "請先選取圖片區塊。",
+    "ja": "先に画像ブロックを選択してください。",
+    "de": "Zuerst einen Bildblock auswählen.",
+    "fr": "Sélectionnez d’abord un bloc image.",
+    "es": "Selecciona primero un bloque de imagen."
+  },
+  "图片路径或网址": {
+    "en": "Image Path or URL",
+    "zh_TW": "圖片路徑或網址",
+    "ja": "画像のパスまたは URL",
+    "de": "Bildpfad oder URL",
+    "fr": "Chemin ou URL de l’image",
+    "es": "Ruta o URL de la imagen"
+  },
+  "替代文本": {
+    "en": "Alternative Text",
+    "zh_TW": "替代文字",
+    "ja": "代替テキスト",
+    "de": "Alternativtext",
+    "fr": "Texte alternatif",
+    "es": "Texto alternativo"
+  },
+  "宽度（像素）": {
+    "en": "Width in Pixels",
+    "zh_TW": "寬度（像素）",
+    "ja": "幅（ピクセル）",
+    "de": "Breite in Pixeln",
+    "fr": "Largeur en pixels",
+    "es": "Ancho en píxeles"
+  },
+  "留空则使用原始尺寸，显示时会适应窗口。": {
+    "en": "Leave width empty to use the original size.",
+    "zh_TW": "寬度留空時使用原始尺寸。",
+    "ja": "幅を空欄にすると元のサイズを使います。",
+    "de": "Breite leer lassen, um die Originalgröße zu verwenden.",
+    "fr": "Laissez la largeur vide pour conserver la taille d’origine.",
+    "es": "Deja el ancho vacío para usar el tamaño original."
+  },
+  "应用": {
+    "en": "Apply",
+    "zh_TW": "套用",
+    "ja": "適用",
+    "de": "Anwenden",
+    "fr": "Appliquer",
+    "es": "Aplicar"
+  },
+  "列": {
+    "en": "Column",
+    "zh_TW": "欄",
+    "ja": "列",
+    "de": "Spalte",
+    "fr": "Colonne",
+    "es": "Columna"
+  },
+  "左对齐": {
+    "en": "Align Left",
+    "zh_TW": "靠左對齊",
+    "ja": "左揃え",
+    "de": "Linksbündig",
+    "fr": "Aligner à gauche",
+    "es": "Alinear a la izquierda"
+  },
+  "居中": {
+    "en": "Align Center",
+    "zh_TW": "置中對齊",
+    "ja": "中央揃え",
+    "de": "Zentriert",
+    "fr": "Centrer",
+    "es": "Centrar"
+  },
+  "右对齐": {
+    "en": "Align Right",
+    "zh_TW": "靠右對齊",
+    "ja": "右揃え",
+    "de": "Rechtsbündig",
+    "fr": "Aligner à droite",
+    "es": "Alinear a la derecha"
+  },
+  "拖动行把手或列标题可调整顺序；首行始终作为表头。": {
+    "en": "Drag row handles or column headers to reorder. The first row remains the header.",
+    "zh_TW": "拖曳列把手或欄標題以重新排序，第一列保留為表頭。",
+    "ja": "行のハンドルや列の見出しをドラッグして並べ替えます。先頭行は見出しです。",
+    "de": "Zeilengriffe oder Spaltenköpfe zum Umordnen ziehen. Die erste Zeile bleibt die Kopfzeile.",
+    "fr": "Faites glisser les poignées de ligne ou les en-têtes de colonne. La première ligne reste l’en-tête.",
+    "es": "Arrastra las asas de fila o las cabeceras de columna. La primera fila sigue siendo la cabecera."
+  },
+  "暖纸色": {
+    "en": "Sepia",
+    "zh_TW": "暖紙色",
+    "ja": "セピア",
+    "de": "Sepia",
+    "fr": "Sépia",
+    "es": "Sepia"
+  },
+  "Solarized 深色": {
+    "en": "Solarized",
+    "zh_TW": "Solarized",
+    "ja": "Solarized",
+    "de": "Solarized",
+    "fr": "Solarized",
+    "es": "Solarized"
+  },
+  "代码语言…": {
+    "en": "Code Language…",
+    "zh_TW": "程式碼語言…",
+    "ja": "コード言語…",
+    "de": "Codesprache…",
+    "fr": "Langage du code…",
+    "es": "Lenguaje del código…"
+  },
+  "打开链接": {
+    "en": "Open Link",
+    "zh_TW": "開啟連結",
+    "ja": "リンクを開く",
+    "de": "Link öffnen",
+    "fr": "Ouvrir le lien",
+    "es": "Abrir enlace"
+  },
+  "文档已变化，请重新打开表格编辑器再应用修改。": {
+    "en": "The document changed. Reopen the table editor before applying changes.",
+    "zh_TW": "文件已變更，請重新開啟表格編輯器再套用修改。",
+    "ja": "文書が変更されました。表エディターを開き直してから適用してください。",
+    "de": "Das Dokument wurde geändert. Tabelleneditor vor dem Anwenden erneut öffnen.",
+    "fr": "Le document a changé. Rouvrez l’éditeur de tableau avant d’appliquer les modifications.",
+    "es": "El documento cambió. Abre de nuevo el editor de tabla antes de aplicar los cambios."
+  },
+  "双击表格或图片即可编辑；按住 ⌘ 点击链接即可打开。": {
+    "en": "Double-click rendered tables or images to edit. Command-click links to open.",
+    "zh_TW": "按兩下表格或圖片即可編輯，按住 Command 點擊可開啟連結。",
+    "ja": "表や画像をダブルクリックして編集。Command を押しながらリンクをクリックして開きます。",
+    "de": "Tabellen oder Bilder per Doppelklick bearbeiten. Links mit Command-Klick öffnen.",
+    "fr": "Double-cliquez sur les tableaux ou images pour les modifier. Command-clic pour ouvrir un lien.",
+    "es": "Haz doble clic en tablas o imágenes para editarlas. Command-clic abre los enlaces."
+  },
+  "查找上一处": {
+    "en": "Find Previous",
+    "zh_TW": "尋找上一處",
+    "ja": "前を検索",
+    "de": "Vorheriges suchen",
+    "fr": "Rechercher le précédent",
+    "es": "Buscar anterior"
+  },
+  "上一处": {
+    "en": "Find Previous",
+    "zh_TW": "尋找上一處",
+    "ja": "前を検索",
+    "de": "Vorheriges suchen",
+    "fr": "Rechercher le précédent",
+    "es": "Buscar anterior"
+  },
+  "全字匹配": {
+    "en": "Whole Word",
+    "zh_TW": "全字匹配",
+    "ja": "単語全体",
+    "de": "Ganzes Wort",
+    "fr": "Mot entier",
+    "es": "Palabra completa"
+  },
+  "选区内": {
+    "en": "In Selection",
+    "zh_TW": "選取範圍內",
+    "ja": "選択範囲内",
+    "de": "In Auswahl",
+    "fr": "Dans la sélection",
+    "es": "En la selección"
+  },
+  "第 %ld / %ld 处": {
+    "en": "%ld of %ld matches",
+    "zh_TW": "第 %ld / %ld 處",
+    "ja": "%ld / %ld 件",
+    "de": "%ld von %ld Treffern",
+    "fr": "%ld sur %ld résultats",
+    "es": "%ld de %ld coincidencias"
+  },
+  "选区内容已变化，请重新选择查找范围。": {
+    "en": "Selection changed. Select the search range again.",
+    "zh_TW": "選取內容已變更，請重新選擇尋找範圍。",
+    "ja": "選択範囲が変更されました。範囲を再選択してください。",
+    "de": "Auswahl geändert. Suchbereich erneut auswählen.",
+    "fr": "La sélection a changé. Sélectionnez à nouveau la zone de recherche.",
+    "es": "La selección ha cambiado. Selecciona de nuevo el intervalo."
+  },
+  "关闭": {
+    "en": "Close",
+    "zh_TW": "關閉",
+    "ja": "閉じる",
+    "de": "Schließen",
+    "fr": "Fermer",
+    "es": "Cerrar"
+  },
+  "Tab / Shift-Tab：下一格 / 上一格；回车：下一行；Command-回车：应用；Escape：取消。": {
+    "en": "Tab / Shift-Tab: next / previous cell. Return: next row. Command-Return: apply. Escape: cancel.",
+    "zh_TW": "Tab / Shift-Tab：下一格 / 上一格；Return：下一列；Command-Return：套用；Escape：取消。",
+    "ja": "Tab / Shift-Tab：次／前のセル。Return：次の行。Command-Return：適用。Escape：キャンセル。",
+    "de": "Tab / Umschalt-Tab: nächste / vorherige Zelle. Eingabe: nächste Zeile. Command-Eingabe: anwenden. Escape: abbrechen.",
+    "fr": "Tab / Maj-Tab : cellule suivante / précédente. Retour : ligne suivante. Command-Retour : appliquer. Échap : annuler.",
+    "es": "Tab / Mayús-Tab: celda siguiente / anterior. Intro: fila siguiente. Command-Intro: aplicar. Escape: cancelar."
+  },
+  "自定义": {
+    "en": "Custom",
+    "zh_TW": "自訂",
+    "ja": "カスタム",
+    "de": "Benutzerdefiniert",
+    "fr": "Personnalisé",
+    "es": "Personalizado"
+  },
+  "导入主题…": {
+    "en": "Import Theme…",
+    "zh_TW": "匯入佈景主題…",
+    "ja": "テーマを読み込む…",
+    "de": "Design importieren…",
+    "fr": "Importer un thème…",
+    "es": "Importar tema…"
+  },
+  "导出主题模板…": {
+    "en": "Export Theme Template…",
+    "zh_TW": "匯出佈景主題範本…",
+    "ja": "テーマ雛形を書き出す…",
+    "de": "Designvorlage exportieren…",
+    "fr": "Exporter le modèle de thème…",
+    "es": "Exportar plantilla de tema…"
+  },
+  "上传图片…": {
+    "en": "Upload Image…",
+    "zh_TW": "上傳圖片…",
+    "ja": "画像をアップロード…",
+    "de": "Bild hochladen…",
+    "fr": "Téléverser une image…",
+    "es": "Subir imagen…"
+  },
+  "取消上传": {
+    "en": "Cancel Upload",
+    "zh_TW": "取消上傳",
+    "ja": "アップロードを中止",
+    "de": "Upload abbrechen",
+    "fr": "Annuler le téléversement",
+    "es": "Cancelar subida"
+  },
+  "图片上传": {
+    "en": "Image Upload",
+    "zh_TW": "圖片上傳",
+    "ja": "画像アップロード",
+    "de": "Bild-Upload",
+    "fr": "Envoi d’images",
+    "es": "Subida de imágenes"
+  },
+  "公式": {
+    "en": "Math",
+    "zh_TW": "公式",
+    "ja": "数式",
+    "de": "Mathematik",
+    "fr": "Mathématiques",
+    "es": "Matemáticas"
+  },
+  "公式宏定义": {
+    "en": "Math Macros",
+    "zh_TW": "公式巨集定義",
+    "ja": "数式マクロ",
+    "de": "Mathematische Makros",
+    "fr": "Macros mathématiques",
+    "es": "Macros matemáticas"
+  },
+  "上传地址（HTTPS）": {
+    "en": "Upload endpoint (HTTPS)",
+    "zh_TW": "上傳位址（HTTPS）",
+    "ja": "送信先 URL（HTTPS）",
+    "de": "Upload-Adresse (HTTPS)",
+    "fr": "Adresse d’envoi (HTTPS)",
+    "es": "Dirección de subida (HTTPS)"
+  },
+  "文件表单字段": {
+    "en": "Multipart field",
+    "zh_TW": "檔案表單欄位",
+    "ja": "ファイルのフォーム名",
+    "de": "Datei-Formularfeld",
+    "fr": "Champ de fichier multipart",
+    "es": "Campo de archivo multipart"
+  },
+  "响应中图片 URL 的路径": {
+    "en": "Response URL path",
+    "zh_TW": "回應中圖片 URL 的路徑",
+    "ja": "応答内の画像 URL パス",
+    "de": "URL-Pfad in der Antwort",
+    "fr": "Chemin de l’URL dans la réponse",
+    "es": "Ruta de URL en la respuesta"
+  },
+  "认证前缀（直接使用令牌时留空）": {
+    "en": "Authorization prefix (empty for raw token)",
+    "zh_TW": "驗證前綴（直接使用權杖時留空）",
+    "ja": "認証接頭辞（トークンのみなら空欄）",
+    "de": "Autorisierungspräfix (leer für reines Token)",
+    "fr": "Préfixe d’autorisation (vide pour jeton brut)",
+    "es": "Prefijo de autorización (vacío para token sin prefijo)"
+  },
+  "上传令牌（可选）": {
+    "en": "Upload token (optional)",
+    "zh_TW": "上傳權杖（選填）",
+    "ja": "アップロードトークン（任意）",
+    "de": "Upload-Token (optional)",
+    "fr": "Jeton d’envoi (facultatif)",
+    "es": "Token de subida (opcional)"
+  },
+  "保存令牌到钥匙串": {
+    "en": "Save Token to Keychain",
+    "zh_TW": "儲存權杖至鑰匙圈",
+    "ja": "トークンをキーチェーンに保存",
+    "de": "Token im Schlüsselbund sichern",
+    "fr": "Enregistrer le jeton dans le trousseau",
+    "es": "Guardar token en el llavero"
+  },
+  "复制链接": {
+    "en": "Copy URL",
+    "zh_TW": "複製連結",
+    "ja": "URL をコピー",
+    "de": "URL kopieren",
+    "fr": "Copier l’URL",
+    "es": "Copiar URL"
+  },
+  "请先在设置中配置图片上传地址。": {
+    "en": "Configure an image upload endpoint in Settings first.",
+    "zh_TW": "請先在設定中配置圖片上傳位址。",
+    "ja": "設定で画像の送信先を指定してください。",
+    "de": "Bitte zuerst in den Einstellungen eine Upload-Adresse festlegen.",
+    "fr": "Configurez d’abord une adresse d’envoi dans les réglages.",
+    "es": "Configura primero una dirección de subida en Ajustes."
+  },
+  "上传完成。文档已发生变化，请复制链接后手动插入。": {
+    "en": "Upload finished. The document changed; copy the URL to insert it manually.",
+    "zh_TW": "上傳完成。文件已變更，請複製連結後手動插入。",
+    "ja": "送信が完了しました。文書が変更されたため、URL をコピーして手動で挿入してください。",
+    "de": "Upload abgeschlossen. Das Dokument wurde geändert; URL kopieren und manuell einfügen.",
+    "fr": "Envoi terminé. Le document a changé ; copiez l’URL pour l’insérer manuellement.",
+    "es": "Subida terminada. El documento cambió; copia la URL para insertarla manualmente."
+  },
+  "仅在选择“上传图片”时发送。服务器须接受 multipart POST，并在 JSON 中返回图片链接。": {
+    "en": "Uploads happen only when you choose Upload Image. The server must accept multipart POST and return a JSON URL.",
+    "zh_TW": "僅在選擇「上傳圖片」時傳送。伺服器須接受 multipart POST，並在 JSON 中回傳圖片連結。",
+    "ja": "「画像をアップロード」を選んだときだけ送信します。送信先は multipart POST を受け取り、JSON で画像 URL を返す必要があります。",
+    "de": "Uploads erfolgen nur über „Bild hochladen“. Der Server muss multipart POST akzeptieren und eine Bild-URL als JSON liefern.",
+    "fr": "L’envoi a lieu uniquement via « Téléverser une image ». Le serveur doit accepter multipart POST et renvoyer une URL en JSON.",
+    "es": "Solo se envía al elegir «Subir imagen». El servidor debe aceptar multipart POST y devolver una URL en JSON."
+  },
+  "使用 newcommand 定义 TeX 宏，本地应用于预览和导出。": {
+    "en": "Define TeX macros with newcommand. Macros are applied locally to previews and exports.",
+    "zh_TW": "使用 newcommand 定義 TeX 巨集，於本機套用至預覽與匯出。",
+    "ja": "newcommand で TeX マクロを定義します。プレビューと書き出しにローカルで適用します。",
+    "de": "TeX-Makros mit newcommand definieren. Sie werden lokal für Vorschau und Export verwendet.",
+    "fr": "Définissez les macros TeX avec newcommand. Elles sont appliquées localement à l’aperçu et aux exports.",
+    "es": "Define macros TeX con newcommand. Se aplican localmente a la vista previa y a las exportaciones."
+  },
+  "使用 newcommand 定义 TeX 宏，应用于预览、PDF 和 RTF。": {
+    "en": "Define TeX macros with newcommand. Applies to previews, PDF and RTF.",
+    "zh_TW": "使用 newcommand 定義 TeX 巨集，套用至預覽、PDF 與 RTF。",
+    "ja": "newcommand で TeX マクロを定義します。プレビュー、PDF、RTF に適用します。",
+    "de": "TeX-Makros mit newcommand definieren. Gilt für Vorschau, PDF und RTF.",
+    "fr": "Définissez les macros TeX avec newcommand. Appliquées à l’aperçu, aux PDF et aux RTF.",
+    "es": "Define macros TeX con newcommand. Se aplican a la vista previa, PDF y RTF."
+  },
+  "向右合并": {
+    "en": "Merge Right",
+    "zh_TW": "向右合併",
+    "ja": "右と結合",
+    "de": "Nach rechts verbinden",
+    "fr": "Fusionner à droite",
+    "es": "Combinar a la derecha"
+  },
+  "向下合并": {
+    "en": "Merge Down",
+    "zh_TW": "向下合併",
+    "ja": "下と結合",
+    "de": "Nach unten verbinden",
+    "fr": "Fusionner en dessous",
+    "es": "Combinar hacia abajo"
+  },
+  "拆分单元格": {
+    "en": "Split Cell",
+    "zh_TW": "拆分儲存格",
+    "ja": "セルを分割",
+    "de": "Zelle teilen",
+    "fr": "Scinder la cellule",
+    "es": "Dividir celda"
+  },
+  "合并表格以 HTML 表格源码保存。": {
+    "en": "Merged tables save as HTML table markup.",
+    "zh_TW": "合併表格以 HTML 表格原始碼儲存。",
+    "ja": "結合した表は HTML の表として保存されます。",
+    "de": "Verbundene Tabellen werden als HTML-Tabellen gespeichert.",
+    "fr": "Les tableaux fusionnés sont enregistrés au format HTML.",
+    "es": "Las tablas combinadas se guardan como tablas HTML."
+  },
+  "完成": {
+    "en": "Done",
+    "zh_TW": "完成",
+    "ja": "完了",
+    "de": "Fertig",
+    "fr": "Terminé",
+    "es": "Listo"
+  },
+  "编辑实时同步到文档。": {
+    "en": "Edits update the document immediately.",
+    "zh_TW": "編輯即時同步至文件。",
+    "ja": "編集は文書に即座に反映されます。",
+    "de": "Änderungen werden sofort ins Dokument übernommen.",
+    "fr": "Les modifications sont immédiatement intégrées au document.",
+    "es": "Los cambios se incorporan al documento de inmediato."
+  },
+  "Tab / Shift-Tab：下一个／上一个单元格。Return：下一行。Escape：退出表格。": {
+    "en": "Tab / Shift-Tab: next / previous cell. Return: next row. Escape: leave table.",
+    "zh_TW": "Tab / Shift-Tab：下一個／上一個儲存格。Return：下一列。Escape：離開表格。",
+    "ja": "Tab / Shift-Tab：次／前のセル。Return：次の行。Escape：表から移動。",
+    "de": "Tab / Umschalt-Tab: nächste / vorherige Zelle. Return: nächste Zeile. Escape: Tabelle verlassen.",
+    "fr": "Tab / Maj-Tab : cellule suivante / précédente. Entrée : ligne suivante. Échap : quitter le tableau.",
+    "es": "Tab / Mayús-Tab: celda siguiente / anterior. Intro: fila siguiente. Escape: salir de la tabla."
+  },
+  "Markdown 语法": {
+    "en": "Markdown Syntax",
+    "zh_TW": "Markdown 語法",
+    "ja": "Markdown 構文",
+    "de": "Markdown-Syntax",
+    "fr": "Syntaxe Markdown",
+    "es": "Sintaxis Markdown"
+  },
+  "扩展 Markdown": {
+    "en": "Extended Markdown",
+    "zh_TW": "擴充 Markdown",
+    "ja": "拡張 Markdown",
+    "de": "Erweitertes Markdown",
+    "fr": "Markdown étendu",
+    "es": "Markdown extendido"
+  },
+  "中文使用帮助": {
+    "en": "User Guide (Chinese)",
+    "zh_TW": "中文使用說明",
+    "ja": "ユーザーガイド（中国語）",
+    "de": "Benutzerhandbuch (Chinesisch)",
+    "fr": "Guide d’utilisation (chinois)",
+    "es": "Guía de usuario (chino)"
+  },
+  "文件(&F)": {
+    "en": "File",
+    "zh_TW": "檔案",
+    "ja": "ファイル",
+    "de": "Datei",
+    "fr": "Fichier",
+    "es": "Archivo"
+  },
+  "编辑(&E)": {
+    "en": "Edit",
+    "zh_TW": "編輯",
+    "ja": "編集",
+    "de": "Bearbeiten",
+    "fr": "Édition",
+    "es": "Editar"
+  },
+  "格式(&M)": {
+    "en": "Format",
+    "zh_TW": "格式",
+    "ja": "書式",
+    "de": "Format",
+    "fr": "Format",
+    "es": "Formato"
+  },
+  "段落(&P)": {
+    "en": "Paragraph",
+    "zh_TW": "段落",
+    "ja": "段落",
+    "de": "Absatz",
+    "fr": "Paragraphe",
+    "es": "Párrafo"
+  },
+  "显示(&V)": {
+    "en": "View",
+    "zh_TW": "顯示",
+    "ja": "表示",
+    "de": "Ansicht",
+    "fr": "Affichage",
+    "es": "Ver"
+  },
+  "帮助(&H)": {
+    "en": "Help",
+    "zh_TW": "說明",
+    "ja": "ヘルプ",
+    "de": "Hilfe",
+    "fr": "Aide",
+    "es": "Ayuda"
+  },
+  "新建(&N)": {
+    "en": "New",
+    "zh_TW": "新增",
+    "ja": "新規",
+    "de": "Neu",
+    "fr": "Nouveau",
+    "es": "Nuevo"
+  },
+  "打开(&O)…": {
+    "en": "Open…",
+    "zh_TW": "打開…",
+    "ja": "開く…",
+    "de": "Öffnen…",
+    "fr": "Ouvrir…",
+    "es": "Abrir…"
+  },
+  "保存(&S)": {
+    "en": "Save",
+    "zh_TW": "儲存",
+    "ja": "保存",
+    "de": "Speichern",
+    "fr": "Enregistrer",
+    "es": "Guardar"
+  },
+  "另存为…": {
+    "en": "Save As…",
+    "zh_TW": "另存新檔…",
+    "ja": "名前を付けて保存…",
+    "de": "Speichern unter…",
+    "fr": "Enregistrer sous…",
+    "es": "Guardar como…"
+  },
+  "关闭文档": {
+    "en": "Close Document",
+    "zh_TW": "關閉文件",
+    "ja": "書類を閉じる",
+    "de": "Dokument schließen",
+    "fr": "Fermer le document",
+    "es": "Cerrar documento"
+  },
+  "退出": {
+    "en": "Quit",
+    "zh_TW": "結束",
+    "ja": "終了",
+    "de": "Beenden",
+    "fr": "Quitter",
+    "es": "Salir"
+  },
+  "撤销": {
+    "en": "Undo",
+    "zh_TW": "還原",
+    "ja": "元に戻す",
+    "de": "Rückgängig",
+    "fr": "Annuler",
+    "es": "Deshacer"
+  },
+  "重做": {
+    "en": "Redo",
+    "zh_TW": "重做",
+    "ja": "やり直す",
+    "de": "Wiederholen",
+    "fr": "Rétablir",
+    "es": "Rehacer"
+  },
+  "剪切": {
+    "en": "Cut",
+    "zh_TW": "剪下",
+    "ja": "切り取り",
+    "de": "Ausschneiden",
+    "fr": "Couper",
+    "es": "Cortar"
+  },
+  "复制": {
+    "en": "Copy",
+    "zh_TW": "複製",
+    "ja": "コピー",
+    "de": "Kopieren",
+    "fr": "Copier",
+    "es": "Copiar"
+  },
+  "粘贴": {
+    "en": "Paste",
+    "zh_TW": "貼上",
+    "ja": "貼り付け",
+    "de": "Einfügen",
+    "fr": "Coller",
+    "es": "Pegar"
+  },
+  "全选": {
+    "en": "Select All",
+    "zh_TW": "全選",
+    "ja": "すべて選択",
+    "de": "Alles auswählen",
+    "fr": "Tout sélectionner",
+    "es": "Seleccionar todo"
+  },
+  "关于墨笺": {
+    "en": "About Mojian",
+    "zh_TW": "關於墨箋",
+    "ja": "Mojianについて",
+    "de": "Über Mojian",
+    "fr": "À propos de Mojian",
+    "es": "Acerca de Mojian"
+  },
+  "设置…": {
+    "en": "Settings…",
+    "zh_TW": "Settings…",
+    "ja": "Settings…",
+    "de": "Settings…",
+    "fr": "Settings…",
+    "es": "Settings…"
+  },
+  "设置": {
+    "en": "Settings",
+    "zh_TW": "設定",
+    "ja": "設定",
+    "de": "Einstellungen",
+    "fr": "Réglages",
+    "es": "Configuración"
+  },
+  "粗体": {
+    "en": "Insert Bold",
+    "zh_TW": "插入粗體",
+    "ja": "太字を挿入",
+    "de": "Fett einfügen",
+    "fr": "Insérer du gras",
+    "es": "Insertar negrita"
+  },
+  "斜体": {
+    "en": "Insert Italic",
+    "zh_TW": "插入斜體",
+    "ja": "斜体を挿入",
+    "de": "Kursiv einfügen",
+    "fr": "Insérer de l’italique",
+    "es": "Insertar cursiva"
+  },
+  "分隔线": {
+    "en": "Horizontal Rule",
+    "zh_TW": "分割线",
+    "ja": "水平線",
+    "de": "Trennlinie",
+    "fr": "Ligne horizontale",
+    "es": "Línea horizontal"
+  },
+  "实时编辑": {
+    "en": "Live Editing",
+    "zh_TW": "实时样式编辑",
+    "ja": "ライブ編集",
+    "de": "Direkt bearbeiten",
+    "fr": "Édition en direct",
+    "es": "Edición en vivo"
+  },
+  "文档大纲": {
+    "en": "Outline",
+    "zh_TW": "大綱",
+    "ja": "アウトライン",
+    "de": "Gliederung",
+    "fr": "Plan",
+    "es": "Esquema"
+  },
+  "文件夹": {
+    "en": "File Tree / File List",
+    "zh_TW": "File Tree / File List",
+    "ja": "File Tree / File List",
+    "de": "File Tree / File List",
+    "fr": "File Tree / File List",
+    "es": "File Tree / File List"
+  },
+  "下一处": {
+    "en": "Find Next",
+    "zh_TW": "查找下一个",
+    "ja": "次を検索",
+    "de": "Weitersuchen",
+    "fr": "Rechercher le suivant",
+    "es": "Buscar siguiente"
+  },
+  "插入 / 编辑表格…": {
+    "en": "Table…",
+    "zh_TW": "表格…",
+    "ja": "表…",
+    "de": "Tabelle…",
+    "fr": "Tableau…",
+    "es": "Tabla…"
+  },
+  "行号": {
+    "en": "Line Numbers",
+    "zh_TW": "显示行号",
+    "ja": "行番号",
+    "de": "Zeilennummern",
+    "fr": "Numéros de ligne",
+    "es": "Números de línea"
+  },
+  "自动配对括号": {
+    "en": "Auto Pair Brackets",
+    "zh_TW": "自动补全括号和引号",
+    "ja": "括弧と引用符を自動補完",
+    "de": "Klammern automatisch ergänzen",
+    "fr": "Compléter les parenthèses",
+    "es": "Completar paréntesis"
+  },
+  "编辑器": {
+    "en": "Editor",
+    "zh_TW": "編輯",
+    "ja": "編集",
+    "de": "Editor",
+    "fr": "Éditeur",
+    "es": "Editor"
+  },
+  "数学": {
+    "en": "Math",
+    "zh_TW": "公式",
+    "ja": "数式",
+    "de": "Mathematik",
+    "fr": "Mathématiques",
+    "es": "Matemáticas"
+  },
+  "数学宏": {
+    "en": "Math Macros",
+    "zh_TW": "公式巨集定義",
+    "ja": "数式マクロ",
+    "de": "Mathematische Makros",
+    "fr": "Macros mathématiques",
+    "es": "Macros matemáticas"
+  },
+  "普通段落": {
+    "en": "Paragraph",
+    "zh_TW": "段落",
+    "ja": "段落",
+    "de": "Absatz",
+    "fr": "Paragraphe",
+    "es": "Párrafo"
+  },
+  "数学公式块": {
+    "en": "Math Block",
+    "zh_TW": "公式块",
+    "ja": "数式ブロック",
+    "de": "Formelblock",
+    "fr": "Bloc mathématique",
+    "es": "Bloque matemático"
+  },
+  "文档": {
+    "en": "Document",
+    "zh_TW": "Document",
+    "ja": "Document",
+    "de": "Document",
+    "fr": "Document",
+    "es": "Document"
+  },
+  "护眼": {
+    "en": "Sepia",
+    "zh_TW": "暖紙色",
+    "ja": "セピア",
+    "de": "Sepia",
+    "fr": "Sépia",
+    "es": "Sepia"
+  },
+  "查找内容": {
+    "en": "Find…",
+    "zh_TW": "尋找…",
+    "ja": "検索…",
+    "de": "Suchen…",
+    "fr": "Rechercher…",
+    "es": "Buscar…"
+  },
+  "仅在选区中": {
+    "en": "In Selection",
+    "zh_TW": "選取範圍內",
+    "ja": "選択範囲内",
+    "de": "In Auswahl",
+    "fr": "Dans la sélection",
+    "es": "En la selección"
+  },
+  "行距": {
+    "en": "Line Spacing",
+    "zh_TW": "Line Spacing",
+    "ja": "Line Spacing",
+    "de": "Line Spacing",
+    "fr": "Line Spacing",
+    "es": "Line Spacing"
+  },
+  "+行": {
+    "en": "Add Row",
+    "zh_TW": "新增一列",
+    "ja": "行を追加",
+    "de": "Zeile hinzufügen",
+    "fr": "Ajouter une ligne",
+    "es": "Añadir fila"
+  },
+  "−行": {
+    "en": "Remove Row",
+    "zh_TW": "刪除末列",
+    "ja": "最後の行を削除",
+    "de": "Letzte Zeile entfernen",
+    "fr": "Supprimer la dernière ligne",
+    "es": "Eliminar última fila"
+  },
+  "+列": {
+    "en": "Add Column",
+    "zh_TW": "新增一欄",
+    "ja": "列を追加",
+    "de": "Spalte hinzufügen",
+    "fr": "Ajouter une colonne",
+    "es": "Añadir columna"
+  },
+  "−列": {
+    "en": "Remove Column",
+    "zh_TW": "刪除末欄",
+    "ja": "最後の列を削除",
+    "de": "Letzte Spalte entfernen",
+    "fr": "Supprimer la dernière colonne",
+    "es": "Eliminar última columna"
+  },
+  "左": {
+    "en": "Align Left",
+    "zh_TW": "靠左對齊",
+    "ja": "左揃え",
+    "de": "Linksbündig",
+    "fr": "Aligner à gauche",
+    "es": "Alinear a la izquierda"
+  },
+  "中": {
+    "en": "Align Center",
+    "zh_TW": "置中對齊",
+    "ja": "中央揃え",
+    "de": "Zentriert",
+    "fr": "Centrer",
+    "es": "Centrar"
+  },
+  "右": {
+    "en": "Align Right",
+    "zh_TW": "靠右對齊",
+    "ja": "右揃え",
+    "de": "Rechtsbündig",
+    "fr": "Aligner à droite",
+    "es": "Alinear a la derecha"
+  },
+  "拆分": {
+    "en": "Split Cell",
+    "zh_TW": "拆分儲存格",
+    "ja": "セルを分割",
+    "de": "Zelle teilen",
+    "fr": "Scinder la cellule",
+    "es": "Dividir celda"
+  },
+  "复制链接地址": {
+    "en": "Copy Link Address",
+    "zh_TW": "Copy Link Address",
+    "ja": "Copy Link Address",
+    "de": "Copy Link Address",
+    "fr": "Copy Link Address",
+    "es": "Copy Link Address"
+  },
+  "修改代码语言…": {
+    "en": "Code Language…",
+    "zh_TW": "程式碼語言…",
+    "ja": "コード言語…",
+    "de": "Codesprache…",
+    "fr": "Langage du code…",
+    "es": "Lenguaje del código…"
+  },
+  "代码语言": {
+    "en": "Code Language…",
+    "zh_TW": "程式碼語言…",
+    "ja": "コード言語…",
+    "de": "Codesprache…",
+    "fr": "Langage du code…",
+    "es": "Lenguaje del código…"
+  },
+  "语言标签": {
+    "en": "Language",
+    "zh_TW": "Language",
+    "ja": "Language",
+    "de": "Language",
+    "fr": "Language",
+    "es": "Language"
+  },
+  "图片设置": {
+    "en": "Image Settings…",
+    "zh_TW": "圖片設定…",
+    "ja": "画像の設定…",
+    "de": "Bildeinstellungen…",
+    "fr": "Réglages de l’image…",
+    "es": "Ajustes de imagen…"
+  },
+  "路径或 URL": {
+    "en": "Image Path or URL",
+    "zh_TW": "圖片路徑或網址",
+    "ja": "画像のパスまたは URL",
+    "de": "Bildpfad oder URL",
+    "fr": "Chemin ou URL de l’image",
+    "es": "Ruta o URL de la imagen"
+  },
+  "替代文字": {
+    "en": "Alternative Text",
+    "zh_TW": "替代文字",
+    "ja": "代替テキスト",
+    "de": "Alternativtext",
+    "fr": "Texte alternatif",
+    "es": "Texto alternativo"
+  },
+  "原始宽度": {
+    "en": "Original Width",
+    "zh_TW": "Original Width",
+    "ja": "Original Width",
+    "de": "Original Width",
+    "fr": "Original Width",
+    "es": "Original Width"
+  },
+  "界面语言（重启生效）": {
+    "en": "Language (restart required)",
+    "zh_TW": "Language (restart required)",
+    "ja": "Language (restart required)",
+    "de": "Language (restart required)",
+    "fr": "Language (restart required)",
+    "es": "Language (restart required)"
+  },
+  "合并": {
+    "en": "Merge",
+    "zh_TW": "合併",
+    "ja": "結合",
+    "de": "Verbinden",
+    "fr": "Fusionner",
+    "es": "Combinar"
+  },
+  "第三方许可证": {
+    "en": "Third-Party Licenses",
+    "zh_TW": "第三方授權",
+    "ja": "サードパーティーライセンス",
+    "de": "Drittanbieter-Lizenzen",
+    "fr": "Licences tierces",
+    "es": "Licencias de terceros"
+  },
+  "OK": {
+    "zh_CN": "确定",
+    "zh_TW": "確定",
+    "en": "OK",
+    "ja": "OK",
+    "de": "OK",
+    "fr": "OK",
+    "es": "Aceptar"
+  },
+  "Cancel": {
+    "zh_CN": "取消",
+    "zh_TW": "取消",
+    "en": "Cancel",
+    "ja": "キャンセル",
+    "de": "Abbrechen",
+    "fr": "Annuler",
+    "es": "Cancelar"
+  },
+  "Yes": {
+    "zh_CN": "是",
+    "zh_TW": "是",
+    "en": "Yes",
+    "ja": "はい",
+    "de": "Ja",
+    "fr": "Oui",
+    "es": "Sí"
+  },
+  "No": {
+    "zh_CN": "否",
+    "zh_TW": "否",
+    "en": "No",
+    "ja": "いいえ",
+    "de": "Nein",
+    "fr": "Non",
+    "es": "No"
+  },
+  "Save": {
+    "zh_CN": "保存",
+    "zh_TW": "儲存",
+    "en": "Save",
+    "ja": "保存",
+    "de": "Speichern",
+    "fr": "Enregistrer",
+    "es": "Guardar"
+  },
+  "Open": {
+    "zh_CN": "打开",
+    "zh_TW": "打開",
+    "en": "Open",
+    "ja": "開く",
+    "de": "Öffnen",
+    "fr": "Ouvrir",
+    "es": "Abrir"
+  },
+  "Discard": {
+    "zh_CN": "不保存",
+    "zh_TW": "不儲存",
+    "en": "Discard",
+    "ja": "保存しない",
+    "de": "Verwerfen",
+    "fr": "Ignorer",
+    "es": "Descartar"
+  },
+  "Close": {
+    "zh_CN": "关闭",
+    "zh_TW": "關閉",
+    "en": "Close",
+    "ja": "閉じる",
+    "de": "Schließen",
+    "fr": "Fermer",
+    "es": "Cerrar"
+  },
+  "Apply": {
+    "zh_CN": "应用",
+    "zh_TW": "套用",
+    "en": "Apply",
+    "ja": "適用",
+    "de": "Anwenden",
+    "fr": "Appliquer",
+    "es": "Aplicar"
+  },
+  "Save As": {
+    "zh_CN": "另存为",
+    "zh_TW": "另存新檔",
+    "en": "Save As",
+    "ja": "名前を付けて保存",
+    "de": "Speichern unter",
+    "fr": "Enregistrer sous",
+    "es": "Guardar como"
+  },
+  "File name:": {
+    "zh_CN": "文件名：",
+    "zh_TW": "檔案名稱：",
+    "en": "File name:",
+    "ja": "ファイル名：",
+    "de": "Dateiname:",
+    "fr": "Nom du fichier :",
+    "es": "Nombre de archivo:"
+  },
+  "Files of type:": {
+    "zh_CN": "文件类型：",
+    "zh_TW": "檔案類型：",
+    "en": "Files of type:",
+    "ja": "ファイルの種類：",
+    "de": "Dateityp:",
+    "fr": "Type de fichier :",
+    "es": "Tipo de archivo:"
+  },
+  "Look in:": {
+    "zh_CN": "位置：",
+    "zh_TW": "位置：",
+    "en": "Look in:",
+    "ja": "場所：",
+    "de": "Suchen in:",
+    "fr": "Regarder dans :",
+    "es": "Buscar en:"
+  }
+}

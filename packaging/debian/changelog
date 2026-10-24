@@ -1,0 +1,8 @@
+mojian (1.0.0-2) noble; urgency=medium
+
+  * Publish the Linux editor under Apache-2.0.
+  * Package the native Linux editor for Ubuntu 24.04 amd64.
+  * Include desktop entry, icon, Chinese help and third-party notices.
+  * Generate shared library dependencies using dh_shlibdeps.
+
+ -- tctiger <56493859+tctiger@users.noreply.github.com>  Sat, 24 Oct 2026 09:00:00 +0800

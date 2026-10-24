@@ -1,0 +1,18 @@
+Source: mojian
+Section: editors
+Priority: optional
+Maintainer: tctiger <56493859+tctiger@users.noreply.github.com>
+Build-Depends: debhelper-compat (= 13), cmake (>= 3.20), g++, qt6-base-dev (>= 6.4), qt6-svg-dev, pandoc, graphviz, libhunspell-1.7-0, poppler-utils, fonts-dejavu-core, fonts-noto-cjk
+Standards-Version: 4.6.2
+Rules-Requires-Root: no
+
+Package: mojian
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, qt6-qpa-plugins, hicolor-icon-theme
+Recommends: graphviz, libhunspell-1.7-0, libsecret-tools, poppler-utils, pandoc, qt6-translations-l10n, qt6-wayland, qt6-gtk-platformtheme, fonts-noto-cjk
+Suggests: fcitx5-frontend-qt6
+Description: Native Markdown editor with live formatting
+ Mojian is a native Qt Markdown editor with source-preserving live formatting,
+ rich tables, mathematical notation, diagrams, outline, themes and Chinese help.
+ Includes CommonMark/GFM parsing and native PDF, HTML and RTF export.
+ Pandoc provides additional document conversions.

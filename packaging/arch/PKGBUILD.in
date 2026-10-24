@@ -1,0 +1,32 @@
+# Local native package; no system-wide installer script is executed.
+pkgname=mojian
+pkgver=1.0.0
+pkgrel=2
+pkgdesc='Native Qt Markdown editor with live formatting and Chinese help'
+arch=('x86_64')
+license=('Apache-2.0')
+depends=('glibc' 'libgcc' 'libstdc++' 'hicolor-icon-theme' 'qt6-base>=6.12.0' 'qt6-svg>=6.12.0')
+makedepends=('cmake' 'make')
+optdepends=('graphviz: diagram layout'
+            'hunspell: English spelling check'
+            'libsecret: secure upload credentials via secret-tool'
+            'poppler: PDF bookmark position detection'
+            'pandoc-cli: Word EPUB ODT and other conversions'
+            'qt6-translations: Qt dialog translations'
+            'qt6-wayland: native Wayland platform support'
+            'fcitx5-qt: fcitx5 input method integration')
+options=('!debug')
+source=("mojian-${pkgver}.tar.gz")
+sha256sums=('@SOURCE_SHA256@')
+
+build() {
+    cmake -S "${srcdir}/mojian-${pkgver}" -B build \
+        -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr \
+        -DBUILD_TESTING=OFF
+    cmake --build build --parallel 2
+}
+
+package() {
+    DESTDIR="${pkgdir}" cmake --install build
+    sed -i 's|^Exec=mojian %F$|Exec=/usr/bin/mojian %F|' "${pkgdir}/usr/share/applications/io.mojian.Editor.desktop"
+}

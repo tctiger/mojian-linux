@@ -1,0 +1,17 @@
+#!/usr/bin/make -f
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+export QT_QPA_PLATFORM = offscreen
+
+%:
+	dh $@ --buildsystem=cmake
+
+override_dh_auto_configure:
+	dh_auto_configure -- -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=ON
+
+override_dh_auto_test:
+	dh_auto_test --no-parallel
+
+override_dh_auto_install:
+	dh_auto_install
+	rm -rf debian/mojian/usr/share/licenses
+	sed -i 's|^Exec=mojian %F$$|Exec=/usr/bin/mojian %F|' debian/mojian/usr/share/applications/io.mojian.Editor.desktop

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Mojian
+Name[zh_CN]=墨笺
+Comment=Native Markdown editor
+Comment[zh_CN]=原生 Markdown 编辑器
+Exec=mojian %F
+Icon=mojian
+Terminal=false
+Categories=Office;TextEditor;
+MimeType=text/markdown;text/x-markdown;
+StartupWMClass=mojian
