@@ -22,7 +22,7 @@ void Services::applyTheme() {
     auto color = [&](const QString &key) { auto raw = object.value(key).toString(); return QColor(raw.startsWith('#') ? raw : "#" + raw); };
     if (!object.isEmpty()) { palette.setColor(QPalette::Base,color("background")); palette.setColor(QPalette::Window,color("background")); palette.setColor(QPalette::Text,color("foreground")); palette.setColor(QPalette::WindowText,color("foreground")); palette.setColor(QPalette::ButtonText,color("foreground")); palette.setColor(QPalette::Button,color("codeBackground")); palette.setColor(QPalette::Highlight,color("accent"));palette.setColor(QPalette::Link,color("accent")); palette.setColor(QPalette::HighlightedText,Qt::white); palette.setColor(QPalette::AlternateBase,color("codeBackground")); }
     qApp->setPalette(palette);
-    QFont font(object.value("fontName").toString().isEmpty() ? "sans-serif" : object.value("fontName").toString(),settings.value("fontSize",13).toInt());
+    QFont font(object.value("fontName").toString().isEmpty() ? "sans-serif" : object.value("fontName").toString(),std::clamp(settings.value("fontSize",13).toInt(),6,96));
     for (auto w : Window::windows) if (w) { w->editor->setFont(font);w->editor->updateGutter(); QFont metrics(font);metrics.setPointSizeF(font.pointSizeF()+settings.value("lineSpacing",4).toDouble()*.35);w->editor->document()->setDefaultFont(metrics);w->preview->setFont(font); w->refreshPreview(); w->editor->highlighter->rehighlight(); }
 }
 void Services::importTheme() {

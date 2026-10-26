@@ -1,13 +1,13 @@
 # Ubuntu 与 Arch 发行包
 
-版本 `1.0.0-2`，均为 x86_64（Debian 架构名 amd64）。Ubuntu 包在 Ubuntu 24.04 LTS / Qt 6.4.2 内从源码构建；Arch 包在目标 Arch / Qt 6.12 内由 makepkg 构建。包未发布到公共仓库，也未使用私有签名密钥签名；同时提供 SHA-256 校验文件。
+版本 `1.0.0-4`，均为 x86_64（Debian 架构名 amd64）。Ubuntu 包在 Ubuntu 24.04 LTS / Qt 6.4.2 内从源码构建；Arch 包在目标 Arch / Qt 6.12 内由 makepkg 构建。包未发布到公共仓库，也未使用私有签名密钥签名；同时提供 SHA-256 校验文件。
 
 ## 安装
 
 Ubuntu **24.04 LTS amd64**：在包所在目录运行：
 
 ```sh
-sudo apt install ./mojian_1.0.0-2_amd64.deb
+sudo apt install ./mojian_1.0.0-4_amd64.deb
 ```
 
 apt 自动解析所需库，默认还安装推荐的 Graphviz、Hunspell、Secret Service 工具、Poppler、Pandoc 和中文字体，以及 Wayland/GTK 桌面集成。不支持 Ubuntu 22.04 的系统 Qt 6.2。其他 Ubuntu 版本未逐一验证。
@@ -15,7 +15,7 @@ apt 自动解析所需库，默认还安装推荐的 Graphviz、Hunspell、Secre
 Arch Linux x86_64（Qt 6.12 或更新的兼容版本）：
 
 ```sh
-sudo pacman -U ./mojian-1.0.0-2-x86_64.pkg.tar.zst
+sudo pacman -U ./mojian-1.0.0-4-x86_64.pkg.tar.zst
 ```
 
 Arch 的可选增强依赖：

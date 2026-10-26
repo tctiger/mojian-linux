@@ -110,6 +110,7 @@ private:
     void menus();
     void updateTitle();
     void updateOutline();
+    void closeDocument();
     bool maybeSave();
     bool save(bool as = false);
     void open();

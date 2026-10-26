@@ -12,7 +12,7 @@ out = args.output or root / 'dist/packages'
 out.mkdir(parents=True, exist_ok=True)
 source = out / 'mojian-1.0.0.tar.gz'
 with tarfile.open(source, 'w:gz') as archive:
-    for name in ['LICENSE', 'NOTICE', 'CMakeLists.txt', 'resources.qrc', 'src', 'resources', 'Vendor', 'tests', 'scripts', 'docs', 'README.md', 'PARITY.md', 'TEST-REPORT.md', 'CHANGELOG-1.0.0.md', 'packaging']:
+    for name in ['LICENSE', 'NOTICE', 'CMakeLists.txt', 'resources.qrc', 'src', 'resources', 'Vendor', 'tests', 'scripts', 'docs', 'README.md', 'CONTRIBUTING.md', 'PARITY.md', 'TEST-REPORT.md', 'CHANGELOG-1.0.0.md', 'packaging']:
         archive.add(root / name, arcname='mojian-1.0.0/' + name)
     archive.add(root / 'packaging/debian', arcname='mojian-1.0.0/debian')
 checksum = hashlib.sha256(source.read_bytes()).hexdigest()

@@ -1,7 +1,7 @@
-# Local native package; no system-wide installer script is executed.
+# Native Arch package; build from the accompanying source archive.
 pkgname=mojian
 pkgver=1.0.0
-pkgrel=2
+pkgrel=4
 pkgdesc='Native Qt Markdown editor with live formatting and Chinese help'
 arch=('x86_64')
 license=('Apache-2.0')

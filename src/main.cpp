@@ -12,7 +12,7 @@
 int main(int argc, char **argv) {
     for (int i = 1; i < argc; ++i) {
         const QString option = QString::fromLocal8Bit(argv[i]);
-        if (option == "--version") { std::puts("Mojian Linux 1.0.0\nBuild: " MOJIAN_BUILD_TIME); return 0; }
+        if (option == "--version") { std::puts("Mojian Linux 1.0.0 (close-document-fix2)\nBuild: " MOJIAN_BUILD_TIME); return 0; }
         if (option == "--help") { std::puts("mojian [file.md ...]\nmojian --version\nF1: Chinese user guide"); return 0; }
     }
     QApplication app(argc, argv);
@@ -21,7 +21,7 @@ int main(int argc, char **argv) {
     app.setDesktopFileName("io.mojian.Editor");
     Mojian::Services::installLocalization(&app);
     auto args = app.arguments(); args.removeFirst();
-    if (args.contains("--version")) { std::puts("Mojian Linux 1.0.0\nBuild: " MOJIAN_BUILD_TIME); return 0; }
+    if (args.contains("--version")) { std::puts("Mojian Linux 1.0.0 (close-document-fix2)\nBuild: " MOJIAN_BUILD_TIME); return 0; }
     if (args.contains("--help")) { std::puts("mojian [file.md ...]\nmojian --version\nF1: Chinese user guide"); return 0; }
     QJsonArray paths; for (auto path : args) if (!path.startsWith("--")) paths.append(QFileInfo(path).absoluteFilePath());
     QString runtime = QStandardPaths::writableLocation(QStandardPaths::RuntimeLocation); if (runtime.isEmpty()) runtime = QDir::tempPath() + "/mojian-" + qEnvironmentVariable("USER"); QDir().mkpath(runtime);

@@ -1,6 +1,21 @@
 # 墨笺 Mojian for Linux
 
-原生 C++17 / Qt 6 Markdown 编辑器，提供源码保留的实时排版、内嵌富文本表格、数学公式、图表和离线中文帮助。支持 Ubuntu 与 Arch Linux。
+原生 C++17 / Qt 6 Markdown 编辑器，提供源码保留的实时排版、内嵌富文本表格、数学公式、图表和离线中文帮助。提供 Ubuntu 与 Arch Linux 原生包，另有 Kali 依赖适配包。
+
+## 下载与安装
+
+从 [GitHub Releases](https://github.com/tctiger/mojian-linux/releases/latest) 下载。三种包分别面向 Ubuntu 24.04 amd64、Arch x86_64、Kali Rolling amd64，请按系统选择。
+
+```bash
+# Ubuntu 24.04
+sudo apt install ./mojian_1.0.0-4_amd64.deb
+# Kali：依赖元数据适配包
+sudo apt install ./mojian_1.0.0-4+kali1_amd64.deb
+# Arch
+sudo pacman -U ./mojian-1.0.0-4-x86_64.pkg.tar.zst
+```
+
+安装更新前先保存文档并通过“退出”关闭旧进程。安装后 `/usr/bin/mojian --version` 应包含 `close-document-fix2`。附件附 SHA256SUMS。Kali 包沿用 Ubuntu 编译产物，修正 Qt 依赖名称；关闭文档修复已由用户在 Kali 确认。它不代表所有 Debian 系发行版均可通用。
 
 ## 功能
 

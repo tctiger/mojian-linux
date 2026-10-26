@@ -336,7 +336,7 @@ Window::Window(const QString &path, QWidget *parent) : QMainWindow(parent) {
     recoveryKey=QUuid::createUuid().toString(QUuid::WithoutBraces);recoveryTimer.setInterval(15000);connect(&recoveryTimer,&QTimer::timeout,this,[this]{if(!editor->document()->isModified())return;QString directory=QStandardPaths::writableLocation(QStandardPaths::AppLocalDataLocation)+"/recovery";QDir().mkpath(directory);QSaveFile file(directory+"/"+recoveryKey+".json");if(file.open(QIODevice::WriteOnly)){file.setPermissions(QFileDevice::ReadOwner|QFileDevice::WriteOwner);file.write(QJsonDocument(QJsonObject{{"path",filePath},{"text",editor->toPlainText()},{"lineEnding",lineEnding}}).toJson());file.commit();}});recoveryTimer.start();
     connect(editor,&QPlainTextEdit::cursorPositionChanged,this,[this]{if(typewriterMode)editor->centerCursor();if(focusMode){QTextEdit::ExtraSelection dim,current;dim.cursor=QTextCursor(editor->document());dim.cursor.select(QTextCursor::Document);dim.format.setForeground(editor->palette().color(QPalette::PlaceholderText));current.cursor=editor->textCursor();current.cursor.select(QTextCursor::BlockUnderCursor);current.format.setForeground(editor->palette().color(QPalette::Text));editor->setExtraSelections({dim,current});}else editor->setExtraSelections({});});
     menus();
-    QSettings settings; auto font = editor->font(); font.setPointSize(settings.value("fontSize", 13).toInt()); editor->setFont(font);
+    QSettings settings; auto font = editor->font(); font.setPointSize(std::clamp(settings.value("fontSize", 13).toInt(), 6, 96)); editor->setFont(font);
     setMode(path.isEmpty()?QString("live"):settings.value("mode", "live").toString());
     if (!path.isEmpty()) loadPath(path); else updateTitle();
     windows.removeIf([](const QPointer<Window> &window){return window.isNull();});windows.append(this); services->applyTheme(); Services::localize(this);
@@ -374,6 +374,40 @@ bool Window::maybeSave() {
     if (!editor->document()->isModified()) return true;
     auto answer = QMessageBox::question(this, "保存修改？", "当前文档尚有未保存的修改。", QMessageBox::Save | QMessageBox::Discard | QMessageBox::Cancel, QMessageBox::Save);
     return answer == QMessageBox::Discard || (answer == QMessageBox::Save && save());
+}
+void Window::closeDocument() {
+    if (!maybeSave()) return;
+    // Close the document in place. Do not close a top-level window or trigger
+    // Qt's last-window shutdown, even when auxiliary windows are visible.
+    editor->setFocus();
+    editor->setLive(false);
+    renderTimer->stop();
+    outlineTimer->stop();
+    if (!watcher.files().isEmpty()) watcher.removePaths(watcher.files());
+    QFile::remove(QStandardPaths::writableLocation(QStandardPaths::AppLocalDataLocation)
+                  + "/recovery/" + recoveryKey + ".json");
+    recoveryKey = QUuid::createUuid().toString(QUuid::WithoutBraces);
+    filePath.clear();
+    diskHash.clear();
+    lineEnding = "\n";
+    selectionCheck->setChecked(false);
+    editor->searchScope = QTextCursor();
+    editor->scopeSource.clear();
+    editor->pendingPrefix.clear();
+    editor->pendingSuffix.clear();
+    editor->outsideBefore.clear();
+    editor->outsideAfter.clear();
+    editor->outsidePosition = -1;
+    editor->referenceDefinitions.clear();
+    editor->setPlainText(QString());
+    editor->document()->setModified(false);
+    findStatus->clear();
+    preview->clear();
+    preview->document()->setBaseUrl(QUrl());
+    outline->clear();
+    setMode("live");
+    updateTitle();
+    editor->setFocus();
 }
 void Window::closeEvent(QCloseEvent *event) { if (maybeSave()) { QFile::remove(QStandardPaths::writableLocation(QStandardPaths::AppLocalDataLocation)+"/recovery/"+recoveryKey+".json"); event->accept(); } else event->ignore(); }
 void Window::open() {
@@ -488,7 +522,7 @@ void Window::menus() {
     add(file, "另存为…", QKeySequence::SaveAs, [this] { save(true); }); file->addSeparator();
     auto exports = file->addMenu("导出"); for (const auto &format : {"pdf", "html", "txt"}) add(exports, QString(format).toUpper(), {}, [this, format] { exportFile(format); });
     add(file, "打印…", QKeySequence::Print, [this] { refreshPreview(); QPrinter printer; QPrintDialog dialog(&printer, this); if (dialog.exec() == QDialog::Accepted) { ImageDocument doc;doc.setDefaultFont(QFont("sans-serif",12));Markdown::render(&doc,editor->toPlainText(),preview->document()->baseUrl(),470,QSettings().value("dialect","extended").toString(),true);doc.print(&printer); } });
-    file->addSeparator(); add(file, "关闭文档", QKeySequence::Close, [this] { close(); }); add(file, "退出", QKeySequence::Quit, [] { qApp->closeAllWindows(); });
+    file->addSeparator(); add(file, "关闭文档", QKeySequence::Close, [this] { closeDocument(); }); add(file, "退出", QKeySequence::Quit, [] { qApp->closeAllWindows(); });
     auto edit = menuBar()->addMenu("编辑(&E)");
     add(edit, "撤销", QKeySequence::Undo, [this] { editor->setFocus(); editor->undo(); editor->liveController->refresh(); }); add(edit, "重做", QKeySequence::Redo, [this] { editor->setFocus(); editor->redo(); editor->liveController->refresh(); }); edit->addSeparator();
     add(edit, "剪切", QKeySequence::Cut, [this] { if (auto focused = qobject_cast<QWidget *>(QApplication::focusWidget())) QMetaObject::invokeMethod(focused, "cut"); });

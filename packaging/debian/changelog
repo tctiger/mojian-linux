@@ -1,3 +1,17 @@
+mojian (1.0.0-4) noble; urgency=medium
+
+  * Clear the closed document in place without closing any application window.
+  * Identify the close-document-fix2 build in --version output.
+
+ -- tctiger <56493859+tctiger@users.noreply.github.com>  Sun, 25 Oct 2026 13:00:00 +0800
+
+mojian (1.0.0-3) noble; urgency=medium
+
+  * Keep an editor open when closing the last document using Close Document.
+  * Clamp persisted editor font sizes to a valid range.
+
+ -- tctiger <56493859+tctiger@users.noreply.github.com>  Sun, 25 Oct 2026 12:00:00 +0800
+
 mojian (1.0.0-2) noble; urgency=medium
 
   * Publish the Linux editor under Apache-2.0.
